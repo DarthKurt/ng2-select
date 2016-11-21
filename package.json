@@ -18,6 +18,7 @@
     "flow.serve:dev": "webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
     "flow.serve:prod": "cross-env NODE_ENV=production webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
     "prepublish": "npm run flow.clean && npm run flow.compile",
+    "postuninstall": "npm run flow.clean && npm run flow.compile",
     "start": "npm run flow.serve:dev",
     "pretest": "npm run flow.lint",
     "test": "cross-env NODE_ENV=test karma start",
