@@ -298,13 +298,13 @@ export class SelectComponent implements OnInit {
   public itemObjects:Array<SelectItem> = [];
   public activeOption:SelectItem;
   public element:ElementRef;
+  public optionsOpened:boolean = false;
 
   public get active():Array<any> {
     return this._active;
   }
 
   private inputMode:boolean = false;
-  private optionsOpened:boolean = false;
   private behavior:OptionsBehavior;
   private inputValue:string = '';
   private _items:Array<any> = [];

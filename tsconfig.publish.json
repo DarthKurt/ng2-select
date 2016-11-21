@@ -22,7 +22,6 @@
     "node_modules"
   ],
   "files": [
-    "./demo/custom-typings.d.ts",
     "./ng2-select.ts"
   ],
   "angularCompilerOptions": {

@@ -1,16 +1,6 @@
-# Native UI Select Angular2 component ([demo](http://valor-software.com/ng2-select/))
-## ng2-select [![npm version](https://badge.fury.io/js/ng2-select.svg)](http://badge.fury.io/js/ng2-select) [![npm downloads](https://img.shields.io/npm/dm/ng2-select.svg)](https://npmjs.org/ng2-select)
-
-Follow me [![twitter](https://img.shields.io/twitter/follow/valorkin.svg?style=social&label=%20valorkin)](https://twitter.com/valorkin) to be notified about new releases.
-
-[![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://github.com/mgechev/angular2-style-guide)
-[![Code Climate](https://codeclimate.com/github/valor-software/ng2-select/badges/gpa.svg)](https://codeclimate.com/github/valor-software/ng2-select)
-[![Build Status](https://travis-ci.org/valor-software/ng2-select.svg?branch=master)](https://travis-ci.org/valor-software/ng2-select)
-[![Join the chat at https://gitter.im/valor-software/ng2-bootstrap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/valor-software/ng2-bootstrap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![devDependency Status](https://david-dm.org/valor-software/ng2-select/dev-status.svg)](https://david-dm.org/valor-software/ng2-select#info=devDependencies)
-[![Throughput Graph](https://graphs.waffle.io/valor-software/ng2-select/throughput.svg)](https://waffle.io/valor-software/ng2-select/metrics)
-
-
+# Native UI Select Angular2 component. Fork of the ([ng2-select](http://valor-software.com/ng2-select/))
+## Disclaimer
+Temporary fork. Will not be supported at all.
 
 ## Quick start
 
@@ -19,9 +9,6 @@ Follow me [![twitter](https://img.shields.io/twitter/follow/valorkin.svg?style=s
   `npm i ng2-select --save`
 
 2. Include `ng2-select.css` in your project
-
-3. More information regarding of using ***ng2-select*** is located in
-  [demo](http://valor-software.github.io/ng2-select/) and [demo sources](https://github.com/valor-software/ng2-select/tree/master/demo).
 
 ## API
 
@@ -46,15 +33,6 @@ Follow me [![twitter](https://img.shields.io/twitter/follow/valorkin.svg?style=s
   - `selected` - it fires after a new option selected; returns object with `id` and `text` properties that describes a new option.
   - `removed` - it fires after an option removed; returns object with `id` and `text` properties that describes a removed option.
   - `typed` - it fires after changing of search input; returns `string` with that value.
-
-# Troubleshooting
-
-Please follow this guidelines when reporting bugs and feature requests:
-
-1. Use [GitHub Issues](https://github.com/valor-software/ng2-select/issues) board to report bugs and feature requests (not our email address)
-2. Please **always** write steps to reproduce the error. That way we can focus on fixing the bug, not scratching our heads trying to reproduce it.
-
-Thanks for understanding!
 
 ### License
 
