@@ -13,13 +13,8 @@
     "flow.lint": "npm run flow.eslint && npm run flow.tslint",
     "flow.changelog": "conventional-changelog -i CHANGELOG.md -s -p angular -v",
     "flow.github-release": "conventional-github-releaser -p angular",
-    "flow.build:prod": "cross-env NODE_ENV=production webpack --progress --color --display-error-details --display-cached",
     "flow.build:dev": "webpack --progress --color",
-    "flow.serve:dev": "webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
-    "flow.serve:prod": "cross-env NODE_ENV=production webpack-dev-server --hot --inline --colors --display-error-details --display-cached",
     "prepublish": "npm run flow.clean && npm run flow.compile",
-    "postinstall": "npm run flow.clean && npm run flow.compile",
-    "start": "npm run flow.serve:dev",
     "pretest": "npm run flow.lint",
     "test": "cross-env NODE_ENV=test karma start",
     "test:watch": "cross-env NODE_ENV=test karma start --auto-watch --no-single-run",
@@ -41,7 +36,7 @@
     "type": "git",
     "url": "git+ssh://git@https://github.com/DarthKurt/ng2-select.git"
   },
-  "homepage": "https://github.com/valor-software/ng2-select#readme",
+  "homepage": "https://github.com/DarthKurt/ng2-select#readme",
   "peerDependencies": {
     "@angular/common": "~2.2.0",
     "@angular/compiler": "~2.2.0",
@@ -89,7 +84,7 @@
     "systemjs-builder": "0.15.34",
     "tslint-config-valorsoft": "1.1.4",
     "codelyzer": "1.0.0-beta.4",
-    "typescript": "2.0.10",
+    "typescript": "2.0.6",
     "zone.js": "0.6.26"
   }
 }
