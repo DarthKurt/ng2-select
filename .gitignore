@@ -31,3 +31,4 @@ ng2-select.js.map
 factories
 
 /**/*.metadata.json
+!ng2-select.metadata.json
