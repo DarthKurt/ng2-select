@@ -27,6 +27,6 @@
     "dist"
   ],
   "files": [
-    "./ng2-select.ts"
+    "./ng2-select-tmp.ts"
   ]
 }

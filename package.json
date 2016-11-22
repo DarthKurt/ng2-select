@@ -1,13 +1,13 @@
 {
-  "name": "ng2-select",
-  "version": "1.0.0",
+  "name": "ng2-select-tmp",
+  "version": "1.0.1",
   "description": "Angular2 based replacement for select boxes. Temporary solution till the Angular Material select is stable and will be used.",
   "scripts": {
     "flow.compile": "npm run flow.compile:common && npm run flow.compile:system",
     "flow.compile:common": "ngc -p tsconfig.publish.json",
     "flow.compile:system": "node ./.config/bundle-system.js",
-    "flow.copy:src": "cpy ng2-select.ts \"components/*.ts\" ts --parents",
-    "flow.clean": "del-cli bundles coverage demo-build \"components/**/*.+(js|d.ts|js.map)\" dist \"ng2-select.+(js|d.ts|js.map)\"",
+    "flow.copy:src": "cpy ng2-select-tmp.ts \"components/*.ts\" ts --parents",
+    "flow.clean": "del-cli bundles coverage demo-build \"components/**/*.+(js|d.ts|js.map)\" dist \"ng2-select-tmp.+(js|d.ts|js.map)\"",
     "flow.eslint": "eslint --ignore-path .gitignore  --ext js --fix . .config",
     "flow.tslint": "gulp lint",
     "flow.lint": "npm run flow.eslint && npm run flow.tslint",
@@ -22,8 +22,8 @@
     "version": "npm run flow.changelog && git add -A",
     "postversion": "git push origin development && git push --tags"
   },
-  "main": "ng2-select.js",
-  "typings": "ng2-select.d.ts",
+  "main": "ng2-select-tmp.js",
+  "typings": "ng2-select-tmp.d.ts",
   "keywords": [
     "angular2",
     "select",

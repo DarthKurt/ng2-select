@@ -76,6 +76,8 @@ function buildSystemJs(options) {
     const dest = path.resolve(__dirname, targetFolder, fileName);
     const builder = new Builder();
 
+    console.log(dest);
+
     console.log('Bundling system.js file:', fileName, options);
     builder.config(config);
     return builder

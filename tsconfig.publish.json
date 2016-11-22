@@ -22,7 +22,7 @@
     "node_modules"
   ],
   "files": [
-    "./ng2-select.ts"
+    "./ng2-select-tmp.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "factories"
